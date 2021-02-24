@@ -39,7 +39,7 @@
         <v-icon>mdi-menu</v-icon>
       </v-btn> -->
     </v-app-bar>
-    <v-main>
+    <v-main style="background: url('7600.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed;">
       <v-container class="mt-4">
         <nuxt />
       </v-container>

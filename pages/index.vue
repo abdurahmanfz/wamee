@@ -64,6 +64,8 @@
           >
             GitHub Profile
           </a>
+          <br>
+          <a href='https://www.freepik.com/vectors/heart'>Heart vector created by Harryarts - www.freepik.com</a>
         </v-card-text>
       </v-card>
 
