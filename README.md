@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# wamee
-WaMe is a simple project create using Vue.js. It was designed to text to any one without saving their phone number.
-=======
 # WaMe
 
 ## Build Setup
@@ -22,4 +18,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
->>>>>>> dev
