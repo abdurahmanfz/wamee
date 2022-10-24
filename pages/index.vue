@@ -7,7 +7,7 @@
       </div> -->
       <v-card class="rounded-lg">
         <v-card-title class="headline">
-          Text any one seamlessly.
+          Text anyone seamlessly.
         </v-card-title>
         <v-card-text>
           <p>WaMe is a simple project create using Vue.js. It was designed to text to any one without saving their phone number.</p>
