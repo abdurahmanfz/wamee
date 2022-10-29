@@ -6,6 +6,7 @@
       app
       class="primary elevation-0"
     >
+      <v-img max-height="32" max-width="32" src="/favicon.ico" class="mr-1" />
       <v-toolbar-title class="white--text font-weight-bold poppins" v-text="title" />
       <v-spacer />
     </v-app-bar>
