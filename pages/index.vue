@@ -1,10 +1,6 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <!-- <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div> -->
       <v-card class="rounded-lg">
         <v-card-title class="headline">
           Text anyone seamlessly.
@@ -18,7 +14,6 @@
         </v-card-text>
 
         <v-card-text>
-          <!-- <v-row class="ma-2" align="top"> -->
             <span class="caption">Whatsapp numbers</span>
             <v-text-field
               v-model="number"
@@ -44,9 +39,8 @@
                 <v-icon right>mdi-send</v-icon>
               </v-btn>
             </v-row>
-          <!-- </v-row> -->
         </v-card-text>
-          
+
         <v-card-text>
           <hr class="my-3">
           <a
@@ -80,7 +74,6 @@
           target="_blank"
         >
           <v-img width="40" height="40" contain src="bmc.png"></v-img>
-          <!-- <v-icon>mdi-plus</v-icon> -->
         </v-btn>
       </v-hover>
     </v-col>
@@ -88,15 +81,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  },
-
   head: {
     title: 'Home',
     meta: [
@@ -105,7 +90,6 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
   },
-
   data() {
     return {
       number: '',
@@ -125,7 +109,7 @@ export default {
         'Enter your message'
       ]
     }
-  }, 
+  },
 
   mounted() {
     this.getRandomText(0, this.texts.length)
